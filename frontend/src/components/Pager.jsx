@@ -1,0 +1,1 @@
+import React from 'react';export default function Pager({page=1,pages=1,onPage}){if(pages<=1)return null;return <div className="pager"><button disabled={page<=1} onClick={()=>onPage(page-1)}>← Anterior</button><span>Página {page} de {pages}</span><button disabled={page>=pages} onClick={()=>onPage(page+1)}>Siguiente →</button></div>}

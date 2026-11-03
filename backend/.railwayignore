@@ -1,0 +1,4 @@
+node_modules
+saludcrm.db
+*.db-wal
+*.db-shm
